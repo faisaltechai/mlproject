@@ -24,7 +24,7 @@ class DataIngestion:
         logging.info("Entered the Data Ingestion component")
 
         try:
-            df = pd.read_csv(r"C:\Users\Faisal\OneDrive\Desktop\mlproject2\notebook\Cleand_data")
+            df = pd.read_csv(r"notebook/Cleaned_data")
             logging.info("Read the dataset as DataFrame")
 
             os.makedirs(
